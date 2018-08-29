@@ -1,0 +1,39 @@
+{
+   "W001" : {
+      "condition" : {
+         "coin_need" : "",
+         "factory_level" : 1,
+         "factory_scale" : 0
+      },
+      "skin" : "W0001",
+      "worker_Id" : "W001"
+   },
+   "W002" : {
+      "condition" : {
+         "coin_need" : "",
+         "factory_level" : 0,
+         "factory_scale" : 2
+      },
+      "skin" : "W0002",
+      "worker_Id" : "W002"
+   },
+   "W003" : {
+      "condition" : {
+         "coin_need" : "1000",
+         "factory_level" : 0,
+         "factory_scale" : 0
+      },
+      "skin" : "W0003",
+      "worker_Id" : "W003"
+   },
+   "W004" : {
+      "condition" : {
+         "coin_need" : "10000000",
+         "factory_level" : 0,
+         "factory_scale" : 0
+      },
+      "skin" : "W0004",
+      "worker_Id" : "W004"
+   }
+}
+

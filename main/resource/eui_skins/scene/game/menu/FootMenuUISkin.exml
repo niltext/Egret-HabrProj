@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="FootMenuUISkin" width="720" height="160" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Button id="taskBtn" label="" y="26" x="2">
+		<e:skinName>
+		<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="footmenu_task0_png" source.down="footmenu_task1_png" verticalCenter="0" verticalCenter.down="5"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Button id="picBtn" label="" x="152" y="26">
+		<e:skinName>
+		<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="footmenu_pic0_png" source.down="footmenu_pic1_png" verticalCenter="0" verticalCenter.down="5"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Button id="levelUpBtn" label="" x="302.5" y="26">
+		<e:skinName>
+		<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="footmenu_level0_png" source.down="footmenu_level1_png" verticalCenter="0" verticalCenter.down="5"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Group width="253" height="131" x="459" y="28" touchEnabled="false">
+		<e:Button id="colBtn" label="" scaleX="1" scaleY="1" horizontalCenter="0" verticalCenter="0">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="" source.down="footmenu_col2_png"/>
+				<e:Image width="100%" height="100%" source="footmenu_col0_png" source.down="footmenu_col1_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+	</e:Group>
+	<e:Image source="com_gold2_png" x="478" y="71" touchEnabled="false"/>
+	<e:BitmapLabel id="goldLab" x="514" y="69" font="footmenu_gold_font_fnt" text="999.99K" touchEnabled="false"/>
+	<e:Group id="taskGroup" width="54" height="52" x="98" y="-2" anchorOffsetY="0" anchorOffsetX="0" touchEnabled="false" touchChildren="false">
+		<e:Image source="footmenu_task_png"/>
+		<e:BitmapLabel id="taskLab" font="task_font_fnt" text="2" scaleX="1" scaleY="1" horizontalCenter="1.5" verticalCenter="-1.5"/>
+	</e:Group>
+</e:Skin>

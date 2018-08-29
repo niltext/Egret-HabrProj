@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="WorkDeskSkin" width="240" height="250" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group id="fireGroup" touchEnabled="false" touchChildren="false" width="240" height="160" x="0" y="0"/>
+	<e:Group id="manGroup" touchEnabled="false" touchChildren="false" width="240" x="0" height="160" y="0"/>
+	<e:Image id="clock" source="game_work_clock_png" y="177.5" x="106"/>
+	<e:Group id="productGroup" width="34" height="10" x="187" y="142" anchorOffsetY="0" anchorOffsetX="0" touchEnabled="false">
+	</e:Group>
+</e:Skin>

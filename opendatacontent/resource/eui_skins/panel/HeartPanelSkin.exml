@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="HeartPanelSkin" width="720" height="1280" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group width="720" height="1280" horizontalCenter="0" verticalCenter="0" touchEnabled="false">
+		<e:Image id="overBg" source="rank_over_bg_png" y="162" x="55" scaleX="1" scaleY="1"/>
+		<e:Label text="即将超越下个好友：" x="72" y="196" textColor="0x0c0000" size="40" scaleX="1" scaleY="1"/>
+		<e:Image id="headImg" width="80" height="80" x="426" y="176" source="rank_star_yellow_png" scaleX="1" scaleY="1"/>
+		<e:Label id="scoreLabel" text="56分" x="524" y="196" textColor="0x0a0000" size="40" verticalAlign="middle" textAlign="left" scaleX="1" scaleY="1"/>
+	</e:Group>
+</e:Skin>

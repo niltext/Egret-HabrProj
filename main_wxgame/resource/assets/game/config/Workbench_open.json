@@ -1,0 +1,39 @@
+{
+   "B001" : {
+      "bench_Id" : "B001",
+      "coin_need" : "0"
+   },
+   "B002" : {
+      "bench_Id" : "B002",
+      "coin_need" : "3120"
+   },
+   "B003" : {
+      "bench_Id" : "B003",
+      "coin_need" : "18353"
+   },
+   "B004" : {
+      "bench_Id" : "B004",
+      "coin_need" : "35367"
+   },
+   "B005" : {
+      "bench_Id" : "B005",
+      "coin_need" : "1085213"
+   },
+   "B006" : {
+      "bench_Id" : "B006",
+      "coin_need" : "2044192"
+   },
+   "B007" : {
+      "bench_Id" : "B007",
+      "coin_need" : "11642862"
+   },
+   "B008" : {
+      "bench_Id" : "B008",
+      "coin_need" : "119627235"
+   },
+   "B009" : {
+      "bench_Id" : "B009",
+      "coin_need" : "710034977"
+   }
+}
+

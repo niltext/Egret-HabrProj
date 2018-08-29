@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="HttpLockSkin" width="720" height="1280" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Rect left="0" right="0" top="0" bottom="0" fillAlpha="0"/>
+	<e:Group id="labelGroup" left="0" right="0" top="0" bottom="0">
+		<e:Rect width="200" height="200" anchorOffsetX="0" anchorOffsetY="0" fillAlpha="0.8" horizontalCenter="0" verticalCenter="0" x="260" y="540" scaleX="1" scaleY="1"/>
+		<e:Label text="加载中..." size="35" horizontalCenter="0" verticalCenter="0" x="293" y="623" scaleX="1" scaleY="1"/>
+	</e:Group>
+</e:Skin>

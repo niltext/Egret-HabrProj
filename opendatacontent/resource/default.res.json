@@ -1,0 +1,20 @@
+{
+	"groups": [
+		{
+			"keys": "description_json,gameEui_json",
+			"name": "preload"
+		}
+	],
+	"resources": [
+		{
+			"name": "description_json",
+			"type": "json",
+			"url": "config/description.json"
+		},
+		{
+			"name": "gameEui_json",
+			"type": "json",
+			"url": "gameEui.json"
+		}
+	]
+}

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="CollectionTextSkin" width="100" height="30" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="com_gold_png" x="0" y="2"/>
+	<e:Label id="numLab" text="Label" x="37" size="24" verticalCenter="0" textColor="0xfdcb02"/>
+</e:Skin>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="LevelUpItemSkin" width="240" height="240" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group id="levelUpGroup" width="120" height="140" x="60" y="50">
+		<e:Image source="game_levelup_item_png" x="7" y="5" scaleX="1" scaleY="1"/>
+		<e:Image id="bar" source="game_levelup_bar_png" x="26" y="22.5" anchorOffsetY="0" scaleX="1" scaleY="1"/>
+		<e:Rect id="barMask" width="68" height="54" x="26" y="22.5" scaleX="1" scaleY="1"/>
+		<e:Image source="game_levelup_green_png" x="7.5" y="5.37" scaleX="1" scaleY="1"/>
+		<e:Group width="29" height="27.5" x="8.5" y="7.25" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1">
+			<e:BitmapLabel id="starLab" font="level_font_fnt" text="9" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1"/>
+			<e:layout>
+			<e:HorizontalLayout horizontalAlign="center" verticalAlign="middle"/>
+			</e:layout>
+		</e:Group>
+		<e:Group width="72" height="57" y="23.5" anchorOffsetX="0" anchorOffsetY="0" x="24" scaleX="1" scaleY="1">
+			<e:BitmapLabel id="levelLab" scaleX="1" scaleY="1" font="money_font_fnt" text="99"/>
+			<e:layout>
+			<e:HorizontalLayout horizontalAlign="center" verticalAlign="middle"/>
+			</e:layout>
+		</e:Group>
+		<e:Group width="49" height="24.5" y="91" anchorOffsetX="0" anchorOffsetY="0" x="52" scaleX="1" scaleY="1">
+			<e:BitmapLabel id="goldLab" scaleX="1" scaleY="1" font="money_font_fnt" text="99"/>
+			<e:layout>
+			<e:HorizontalLayout horizontalAlign="left" verticalAlign="middle"/>
+			</e:layout>
+		</e:Group>
+	</e:Group>
+	<e:Group id="unlockGroup" width="120" height="140" x="60" y="50">
+		<e:Image source="game_unlock_bg_png" horizontalCenter="0" verticalCenter="0"/>
+		<e:Image source="game_unlock_txt_png" y="70" x="20"/>
+		<e:Image x="17" y="38" scaleX="0.9" scaleY="0.9" source="com_gold_small_png"/>
+		<e:BitmapLabel id="cosLab" x="49" y="41" font="write_font_fnt" text="9"/>
+	</e:Group>
+</e:Skin>

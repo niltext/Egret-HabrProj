@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="TipsSkin" width="300" height="50" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Rect left="0" right="0" top="0" bottom="0" fillAlpha="0.8"/>
+	<e:Label id="msgLabel" text="您还没有卡" verticalAlign="middle" textAlign="center" multiline="true" anchorOffsetX="0" anchorOffsetY="0" width="300" height="50" horizontalCenter="1" verticalCenter="0"/>
+</e:Skin>

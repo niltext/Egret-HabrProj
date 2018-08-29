@@ -1,0 +1,14 @@
+{
+	"search.exclude": {
+		"**/bin-debug": true,
+		"**/bin-release": true,
+		"git.enabled": false
+	},
+	"git.enabled": false,
+    "files.exclude": {
+        "**/.git": false,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/.DS_Store": true
+    }
+}

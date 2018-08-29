@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="RankItemSkin" width="560" height="110" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image id="rankItemBg" x="7" y="1" source=""/>
+	<e:Image id="rankNoImg" x="17" y="36" source=""/>
+	<e:Label id="rankLabel" text="999" x="18" y="46" textColor="0x070000" verticalAlign="middle" textAlign="center" anchorOffsetX="0" width="38" size="20"/>
+	<e:Image id="headImg" x="73" width="70" height="70" y="20" source=""/>
+	<e:Label id="nameLabel" text="克洛洛军曹" x="154" y="20" size="25"/>
+	<e:Image id="rankTitle" x="155" y="62" source=""/>
+	<e:Label id="titleLabel" text="葵花点穴手" x="154" y="65" textColor="0x070000" anchorOffsetX="0" width="135" verticalAlign="middle" textAlign="center" size="20" anchorOffsetY="0" height="29"/>
+	<e:Label id="scoreLabel" text="99米" x="362" y="62" anchorOffsetX="0" width="173" textAlign="right"/>
+	<e:Image id="star0" x="446" y="22" source=""/>
+	<e:Image id="star1" x="478.5" y="22" source=""/>
+	<e:Image id="star2" x="511" y="22" source=""/>
+</e:Skin>

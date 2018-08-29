@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="WorkAreaUISkin" width="720" height="720" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<e:Group id="deskGroup" touchEnabled="false" width="720" height="720" x="0" y="0">
+		<ns1:WorkDesk xmlns:ns1="*" y="78" skinName="WorkDeskSkin" scaleX="1" scaleY="1" x="0"/>
+		<ns1:WorkDesk xmlns:ns1="*" y="78" skinName="WorkDeskSkin" scaleX="1" scaleY="1" x="240"/>
+		<ns1:WorkDesk xmlns:ns1="*" y="78" skinName="WorkDeskSkin" scaleX="1" scaleY="1" x="480"/>
+		<ns1:WorkDesk xmlns:ns1="*" y="278" skinName="WorkDeskSkin" scaleX="1" scaleY="1" x="0"/>
+		<ns1:WorkDesk xmlns:ns1="*" y="278" skinName="WorkDeskSkin" scaleX="1" scaleY="1" x="240"/>
+		<ns1:WorkDesk xmlns:ns1="*" y="278" skinName="WorkDeskSkin" scaleX="1" scaleY="1" x="480"/>
+		<ns1:WorkDesk xmlns:ns1="*" y="478" skinName="WorkDeskSkin" scaleX="1" scaleY="1" x="0"/>
+		<ns1:WorkDesk xmlns:ns1="*" y="478" skinName="WorkDeskSkin" scaleX="1" scaleY="1" x="240"/>
+		<ns1:WorkDesk xmlns:ns1="*" y="478" skinName="WorkDeskSkin" scaleX="1" scaleY="1" x="480"/>
+		<e:layout>
+			<e:TileLayout orientation="rows" horizontalAlign="left" verticalAlign="top" rowAlign="top" columnAlign="left" horizontalGap="0" verticalGap="-30"/>
+		</e:layout>
+	</e:Group>
+	<e:Rect id="rect" width="720" x="0" height="540" y="0" fillAlpha="0.8"/>
+	<e:Group id="levelUpGroup" width="720" x="0" height="720" y="0" touchEnabled="false">
+		<ns1:LevelUpItem x="62" y="180" skinName="LevelUpItemSkin"/>
+		<ns1:LevelUpItem x="72" y="190" skinName="LevelUpItemSkin"/>
+		<ns1:LevelUpItem x="82" y="200" skinName="LevelUpItemSkin"/>
+		<ns1:LevelUpItem x="92" y="210" skinName="LevelUpItemSkin"/>
+		<ns1:LevelUpItem x="102" y="220" skinName="LevelUpItemSkin"/>
+		<ns1:LevelUpItem x="112" y="230" skinName="LevelUpItemSkin"/>
+		<ns1:LevelUpItem x="122" y="240" skinName="LevelUpItemSkin"/>
+		<ns1:LevelUpItem x="132" y="250" skinName="LevelUpItemSkin"/>
+		<ns1:LevelUpItem x="142" y="260" skinName="LevelUpItemSkin"/>
+		<e:layout>
+			<e:TileLayout verticalGap="-30" orientation="rows" rowAlign="top" columnAlign="left" paddingLeft="0" paddingTop="0" horizontalAlign="left" verticalAlign="top" horizontalGap="0"/>
+		</e:layout>
+	</e:Group>
+</e:Skin>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="HomeSceneSkin" width="720" height="1280" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Rect fillColor="0x285FCC" left="0" right="0" top="0" bottom="0"/>
+	<e:Group left="0" right="0" top="0" bottom="0" touchEnabled="false">
+		<e:Button id="startBtn" label="进入游戏" anchorOffsetX="0" anchorOffsetY="0" y="613" scaleX="1" scaleY="1" x="240">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="com_btn_red_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Button id="resetBtn" label="重置数据" anchorOffsetX="0" anchorOffsetY="0" y="713" scaleX="1" scaleY="1" x="240">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="com_btn_red_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+	</e:Group>
+</e:Skin>

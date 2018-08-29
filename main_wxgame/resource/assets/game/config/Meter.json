@@ -1,0 +1,8 @@
+{
+	"clickStep":0.015,
+	"holdStep":0.0075,
+	"reduceStep":0.0015,
+	"maxMeterValue":1,
+	"FastestValue":2,
+	"clickReduceTime":0.3
+}

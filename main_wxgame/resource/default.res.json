@@ -1,0 +1,768 @@
+{
+	"groups": [
+		{
+			"keys": "description_json,gameEui_json,home_start_png",
+			"name": "preload"
+		},
+		{
+			"keys": "home_start_png",
+			"name": "home"
+		},
+		{
+			"keys": "com_btn_red_png,com_col_gold_png,com_gold_png,com_gold2_png,com_gold_light_png,com_gold_small_png,Factory_json,Meter_json,Produce_json,Workbench_json,Workbench_open_json,Worker_json,fire_ske_dbbin,fire_tex_json,fire_tex_png,gongchangren_ske_dbbin,gongchangren_tex_json,gongchangren_tex_png,gongchang_ske_dbbin,gongchang_tex_json,gongchang_tex_png,footmenu_gold_font_fnt,footmenu_gold_font_png,gain_font_fnt,gain_font_png,level_font_fnt,level_font_png,money_font_fnt,money_font_png,task_font_fnt,task_font_png,topmenu_gold_font_fnt,topmenu_gold_font_png,topmenu_level_font_fnt,topmenu_level_font_png,write_font_fnt,write_font_png,footmenu_col0_png,footmenu_col1_png,footmenu_col2_png,footmenu_level0_png,footmenu_level1_png,footmenu_pic0_png,footmenu_pic1_png,footmenu_task_png,footmenu_task0_png,footmenu_task1_png,game_emptydesk_png,game_levelup_bar_png,game_levelup_green_png,game_levelup_item_png,game_product_png,game_role_gold_png,game_unlock_bg_png,game_unlock_txt_png,game_work_clock_png,game_work_clockbg_png,meter_0_png,meter_1_png,meter_2_png,meter_3_png,meter_4_png,S0001_jpg,S0002_jpg,S0003_jpg,S0004_jpg,man0_0_png,man0_1_png,man0_2_png,man0_3_png,man0_4_png,man0_5_png,man1_0_png,man1_1_png,man1_2_png,man1_3_png,man1_4_png,man1_5_png,man2_0_png,man2_1_png,man2_2_png,man2_3_png,man2_4_png,man2_5_png,man3_0_png,man3_1_png,man3_2_png,man3_3_png,man3_4_png,man3_5_png,man4_0_png,man4_1_png,man4_2_png,man4_3_png,man4_4_png,man4_5_png,man5_0_png,man5_1_png,man5_2_png,man5_3_png,man5_4_png,man5_5_png,man6_0_png,man6_1_png,man6_2_png,man6_3_png,man6_4_png,man6_5_png,man7_0_png,man7_1_png,man7_2_png,man7_3_png,man7_4_png,man7_5_png,man8_0_png,man8_1_png,man8_2_png,man8_3_png,man8_4_png,man8_5_png,S01P01_png,S01P01_0_png,S01P02_png,S01P02_0_png,S01P03_png,S01P03_0_png,S01P04_png,S01P04_0_png,S01P05_png,S01P05_0_png,S01P06_png,S01P06_0_png,topmenu__png,topmenu_bar_png,topmenu_barbg_png,topmenu_bg_png,topmenu_head_png,topmenu_house_png,topmenu_name1_png,topmenu_name2_png,topmenu_name3_png,topmenu_name4_png,topmenu_name5_png,topmenu_productbg_png,topmenu_pt_cur_png,topmenu_pt_last_png,topmenu_pt_next_png",
+			"name": "game"
+		}
+	],
+	"resources": [
+		{
+			"url": "config/description.json",
+			"type": "json",
+			"name": "description_json"
+		},
+		{
+			"url": "gameEui.json",
+			"type": "json",
+			"name": "gameEui_json"
+		},
+		{
+			"url": "assets/home/home_start.png",
+			"type": "image",
+			"name": "home_start_png"
+		},
+		{
+			"url": "assets/game/common/com_btn_red.png",
+			"type": "image",
+			"name": "com_btn_red_png"
+		},
+		{
+			"url": "assets/game/common/com_col_gold.png",
+			"type": "image",
+			"name": "com_col_gold_png"
+		},
+		{
+			"url": "assets/game/common/com_gold.png",
+			"type": "image",
+			"name": "com_gold_png"
+		},
+		{
+			"url": "assets/game/common/com_gold2.png",
+			"type": "image",
+			"name": "com_gold2_png"
+		},
+		{
+			"url": "assets/game/common/com_gold_light.png",
+			"type": "image",
+			"name": "com_gold_light_png"
+		},
+		{
+			"url": "assets/game/common/com_gold_small.png",
+			"type": "image",
+			"name": "com_gold_small_png"
+		},
+		{
+			"url": "assets/game/config/Factory.json",
+			"type": "json",
+			"name": "Factory_json"
+		},
+		{
+			"url": "assets/game/config/Meter.json",
+			"type": "json",
+			"name": "Meter_json"
+		},
+		{
+			"url": "assets/game/config/Produce.json",
+			"type": "json",
+			"name": "Produce_json"
+		},
+		{
+			"url": "assets/game/config/Workbench.json",
+			"type": "json",
+			"name": "Workbench_json"
+		},
+		{
+			"url": "assets/game/config/Workbench_open.json",
+			"type": "json",
+			"name": "Workbench_open_json"
+		},
+		{
+			"url": "assets/game/config/Worker.json",
+			"type": "json",
+			"name": "Worker_json"
+		},
+		{
+			"url": "assets/game/dragonbones/fire_ske.dbbin",
+			"type": "bin",
+			"name": "fire_ske_dbbin"
+		},
+		{
+			"url": "assets/game/dragonbones/fire_tex.json",
+			"type": "json",
+			"name": "fire_tex_json"
+		},
+		{
+			"url": "assets/game/dragonbones/fire_tex.png",
+			"type": "image",
+			"name": "fire_tex_png"
+		},
+		{
+			"url": "assets/game/dragonbones/gongchangren_ske.dbbin",
+			"type": "bin",
+			"name": "gongchangren_ske_dbbin"
+		},
+		{
+			"url": "assets/game/dragonbones/gongchangren_tex.json",
+			"type": "json",
+			"name": "gongchangren_tex_json"
+		},
+		{
+			"url": "assets/game/dragonbones/gongchangren_tex.png",
+			"type": "image",
+			"name": "gongchangren_tex_png"
+		},
+		{
+			"url": "assets/game/dragonbones/gongchang_ske.dbbin",
+			"type": "bin",
+			"name": "gongchang_ske_dbbin"
+		},
+		{
+			"url": "assets/game/dragonbones/gongchang_tex.json",
+			"type": "json",
+			"name": "gongchang_tex_json"
+		},
+		{
+			"url": "assets/game/dragonbones/gongchang_tex.png",
+			"type": "image",
+			"name": "gongchang_tex_png"
+		},
+		{
+			"url": "assets/game/font/footmenu_gold_font.fnt",
+			"type": "font",
+			"name": "footmenu_gold_font_fnt"
+		},
+		{
+			"url": "assets/game/font/footmenu_gold_font.png",
+			"type": "image",
+			"name": "footmenu_gold_font_png"
+		},
+		{
+			"url": "assets/game/font/gain_font.fnt",
+			"type": "font",
+			"name": "gain_font_fnt"
+		},
+		{
+			"url": "assets/game/font/gain_font.png",
+			"type": "image",
+			"name": "gain_font_png"
+		},
+		{
+			"url": "assets/game/font/level_font.fnt",
+			"type": "font",
+			"name": "level_font_fnt"
+		},
+		{
+			"url": "assets/game/font/level_font.png",
+			"type": "image",
+			"name": "level_font_png"
+		},
+		{
+			"url": "assets/game/font/money_font.fnt",
+			"type": "font",
+			"name": "money_font_fnt"
+		},
+		{
+			"url": "assets/game/font/money_font.png",
+			"type": "image",
+			"name": "money_font_png"
+		},
+		{
+			"url": "assets/game/font/task_font.fnt",
+			"type": "font",
+			"name": "task_font_fnt"
+		},
+		{
+			"url": "assets/game/font/task_font.png",
+			"type": "image",
+			"name": "task_font_png"
+		},
+		{
+			"url": "assets/game/font/topmenu_gold_font.fnt",
+			"type": "font",
+			"name": "topmenu_gold_font_fnt"
+		},
+		{
+			"url": "assets/game/font/topmenu_gold_font.png",
+			"type": "image",
+			"name": "topmenu_gold_font_png"
+		},
+		{
+			"url": "assets/game/font/topmenu_level_font.fnt",
+			"type": "font",
+			"name": "topmenu_level_font_fnt"
+		},
+		{
+			"url": "assets/game/font/topmenu_level_font.png",
+			"type": "image",
+			"name": "topmenu_level_font_png"
+		},
+		{
+			"url": "assets/game/font/write_font.fnt",
+			"type": "font",
+			"name": "write_font_fnt"
+		},
+		{
+			"url": "assets/game/font/write_font.png",
+			"type": "image",
+			"name": "write_font_png"
+		},
+		{
+			"url": "assets/game/footmenu_col0.png",
+			"type": "image",
+			"name": "footmenu_col0_png"
+		},
+		{
+			"url": "assets/game/footmenu_col1.png",
+			"type": "image",
+			"name": "footmenu_col1_png"
+		},
+		{
+			"url": "assets/game/footmenu_col2.png",
+			"type": "image",
+			"name": "footmenu_col2_png"
+		},
+		{
+			"url": "assets/game/footmenu_level0.png",
+			"type": "image",
+			"name": "footmenu_level0_png"
+		},
+		{
+			"url": "assets/game/footmenu_level1.png",
+			"type": "image",
+			"name": "footmenu_level1_png"
+		},
+		{
+			"url": "assets/game/footmenu_pic0.png",
+			"type": "image",
+			"name": "footmenu_pic0_png"
+		},
+		{
+			"url": "assets/game/footmenu_pic1.png",
+			"type": "image",
+			"name": "footmenu_pic1_png"
+		},
+		{
+			"url": "assets/game/footmenu_task.png",
+			"type": "image",
+			"name": "footmenu_task_png"
+		},
+		{
+			"url": "assets/game/footmenu_task0.png",
+			"type": "image",
+			"name": "footmenu_task0_png"
+		},
+		{
+			"url": "assets/game/footmenu_task1.png",
+			"type": "image",
+			"name": "footmenu_task1_png"
+		},
+		{
+			"url": "assets/game/game_emptydesk.png",
+			"type": "image",
+			"name": "game_emptydesk_png"
+		},
+		{
+			"url": "assets/game/game_levelup_bar.png",
+			"type": "image",
+			"name": "game_levelup_bar_png"
+		},
+		{
+			"url": "assets/game/game_levelup_green.png",
+			"type": "image",
+			"name": "game_levelup_green_png"
+		},
+		{
+			"url": "assets/game/game_levelup_item.png",
+			"type": "image",
+			"name": "game_levelup_item_png"
+		},
+		{
+			"url": "assets/game/game_product.png",
+			"type": "image",
+			"name": "game_product_png"
+		},
+		{
+			"url": "assets/game/game_role_gold.png",
+			"type": "image",
+			"name": "game_role_gold_png"
+		},
+		{
+			"url": "assets/game/game_unlock_bg.png",
+			"type": "image",
+			"name": "game_unlock_bg_png"
+		},
+		{
+			"url": "assets/game/game_unlock_txt.png",
+			"type": "image",
+			"name": "game_unlock_txt_png"
+		},
+		{
+			"url": "assets/game/game_work_clock.png",
+			"type": "image",
+			"name": "game_work_clock_png"
+		},
+		{
+			"url": "assets/game/game_work_clockbg.png",
+			"type": "image",
+			"name": "game_work_clockbg_png"
+		},
+		{
+			"url": "assets/game/meter_0.png",
+			"type": "image",
+			"name": "meter_0_png"
+		},
+		{
+			"url": "assets/game/meter_1.png",
+			"type": "image",
+			"name": "meter_1_png"
+		},
+		{
+			"url": "assets/game/meter_2.png",
+			"type": "image",
+			"name": "meter_2_png"
+		},
+		{
+			"url": "assets/game/meter_3.png",
+			"type": "image",
+			"name": "meter_3_png"
+		},
+		{
+			"url": "assets/game/meter_4.png",
+			"type": "image",
+			"name": "meter_4_png"
+		},
+		{
+			"url": "assets/game/skin/factorySkin/S0001.jpg",
+			"type": "image",
+			"name": "S0001_jpg"
+		},
+		{
+			"url": "assets/game/skin/factorySkin/S0002.jpg",
+			"type": "image",
+			"name": "S0002_jpg"
+		},
+		{
+			"url": "assets/game/skin/factorySkin/S0003.jpg",
+			"type": "image",
+			"name": "S0003_jpg"
+		},
+		{
+			"url": "assets/game/skin/factorySkin/S0004.jpg",
+			"type": "image",
+			"name": "S0004_jpg"
+		},
+		{
+			"url": "assets/game/skin/manSkin/man0/man0_0.png",
+			"type": "image",
+			"name": "man0_0_png"
+		},
+		{
+			"url": "assets/game/skin/manSkin/man0/man0_1.png",
+			"type": "image",
+			"name": "man0_1_png"
+		},
+		{
+			"url": "assets/game/skin/manSkin/man0/man0_2.png",
+			"type": "image",
+			"name": "man0_2_png"
+		},
+		{
+			"url": "assets/game/skin/manSkin/man0/man0_3.png",
+			"type": "image",
+			"name": "man0_3_png"
+		},
+		{
+			"url": "assets/game/skin/manSkin/man0/man0_4.png",
+			"type": "image",
+			"name": "man0_4_png"
+		},
+		{
+			"url": "assets/game/skin/manSkin/man0/man0_5.png",
+			"type": "image",
+			"name": "man0_5_png"
+		},
+		{
+			"url": "assets/game/skin/manSkin/man1/man1_0.png",
+			"type": "image",
+			"name": "man1_0_png"
+		},
+		{
+			"url": "assets/game/skin/manSkin/man1/man1_1.png",
+			"type": "image",
+			"name": "man1_1_png"
+		},
+		{
+			"url": "assets/game/skin/manSkin/man1/man1_2.png",
+			"type": "image",
+			"name": "man1_2_png"
+		},
+		{
+			"url": "assets/game/skin/manSkin/man1/man1_3.png",
+			"type": "image",
+			"name": "man1_3_png"
+		},
+		{
+			"url": "assets/game/skin/manSkin/man1/man1_4.png",
+			"type": "image",
+			"name": "man1_4_png"
+		},
+		{
+			"url": "assets/game/skin/manSkin/man1/man1_5.png",
+			"type": "image",
+			"name": "man1_5_png"
+		},
+		{
+			"url": "assets/game/skin/manSkin/man2/man2_0.png",
+			"type": "image",
+			"name": "man2_0_png"
+		},
+		{
+			"url": "assets/game/skin/manSkin/man2/man2_1.png",
+			"type": "image",
+			"name": "man2_1_png"
+		},
+		{
+			"url": "assets/game/skin/manSkin/man2/man2_2.png",
+			"type": "image",
+			"name": "man2_2_png"
+		},
+		{
+			"url": "assets/game/skin/manSkin/man2/man2_3.png",
+			"type": "image",
+			"name": "man2_3_png"
+		},
+		{
+			"url": "assets/game/skin/manSkin/man2/man2_4.png",
+			"type": "image",
+			"name": "man2_4_png"
+		},
+		{
+			"url": "assets/game/skin/manSkin/man2/man2_5.png",
+			"type": "image",
+			"name": "man2_5_png"
+		},
+		{
+			"url": "assets/game/skin/manSkin/man3/man3_0.png",
+			"type": "image",
+			"name": "man3_0_png"
+		},
+		{
+			"url": "assets/game/skin/manSkin/man3/man3_1.png",
+			"type": "image",
+			"name": "man3_1_png"
+		},
+		{
+			"url": "assets/game/skin/manSkin/man3/man3_2.png",
+			"type": "image",
+			"name": "man3_2_png"
+		},
+		{
+			"url": "assets/game/skin/manSkin/man3/man3_3.png",
+			"type": "image",
+			"name": "man3_3_png"
+		},
+		{
+			"url": "assets/game/skin/manSkin/man3/man3_4.png",
+			"type": "image",
+			"name": "man3_4_png"
+		},
+		{
+			"url": "assets/game/skin/manSkin/man3/man3_5.png",
+			"type": "image",
+			"name": "man3_5_png"
+		},
+		{
+			"url": "assets/game/skin/manSkin/man4/man4_0.png",
+			"type": "image",
+			"name": "man4_0_png"
+		},
+		{
+			"url": "assets/game/skin/manSkin/man4/man4_1.png",
+			"type": "image",
+			"name": "man4_1_png"
+		},
+		{
+			"url": "assets/game/skin/manSkin/man4/man4_2.png",
+			"type": "image",
+			"name": "man4_2_png"
+		},
+		{
+			"url": "assets/game/skin/manSkin/man4/man4_3.png",
+			"type": "image",
+			"name": "man4_3_png"
+		},
+		{
+			"url": "assets/game/skin/manSkin/man4/man4_4.png",
+			"type": "image",
+			"name": "man4_4_png"
+		},
+		{
+			"url": "assets/game/skin/manSkin/man4/man4_5.png",
+			"type": "image",
+			"name": "man4_5_png"
+		},
+		{
+			"url": "assets/game/skin/manSkin/man5/man5_0.png",
+			"type": "image",
+			"name": "man5_0_png"
+		},
+		{
+			"url": "assets/game/skin/manSkin/man5/man5_1.png",
+			"type": "image",
+			"name": "man5_1_png"
+		},
+		{
+			"url": "assets/game/skin/manSkin/man5/man5_2.png",
+			"type": "image",
+			"name": "man5_2_png"
+		},
+		{
+			"url": "assets/game/skin/manSkin/man5/man5_3.png",
+			"type": "image",
+			"name": "man5_3_png"
+		},
+		{
+			"url": "assets/game/skin/manSkin/man5/man5_4.png",
+			"type": "image",
+			"name": "man5_4_png"
+		},
+		{
+			"url": "assets/game/skin/manSkin/man5/man5_5.png",
+			"type": "image",
+			"name": "man5_5_png"
+		},
+		{
+			"url": "assets/game/skin/manSkin/man6/man6_0.png",
+			"type": "image",
+			"name": "man6_0_png"
+		},
+		{
+			"url": "assets/game/skin/manSkin/man6/man6_1.png",
+			"type": "image",
+			"name": "man6_1_png"
+		},
+		{
+			"url": "assets/game/skin/manSkin/man6/man6_2.png",
+			"type": "image",
+			"name": "man6_2_png"
+		},
+		{
+			"url": "assets/game/skin/manSkin/man6/man6_3.png",
+			"type": "image",
+			"name": "man6_3_png"
+		},
+		{
+			"url": "assets/game/skin/manSkin/man6/man6_4.png",
+			"type": "image",
+			"name": "man6_4_png"
+		},
+		{
+			"url": "assets/game/skin/manSkin/man6/man6_5.png",
+			"type": "image",
+			"name": "man6_5_png"
+		},
+		{
+			"url": "assets/game/skin/manSkin/man7/man7_0.png",
+			"type": "image",
+			"name": "man7_0_png"
+		},
+		{
+			"url": "assets/game/skin/manSkin/man7/man7_1.png",
+			"type": "image",
+			"name": "man7_1_png"
+		},
+		{
+			"url": "assets/game/skin/manSkin/man7/man7_2.png",
+			"type": "image",
+			"name": "man7_2_png"
+		},
+		{
+			"url": "assets/game/skin/manSkin/man7/man7_3.png",
+			"type": "image",
+			"name": "man7_3_png"
+		},
+		{
+			"url": "assets/game/skin/manSkin/man7/man7_4.png",
+			"type": "image",
+			"name": "man7_4_png"
+		},
+		{
+			"url": "assets/game/skin/manSkin/man7/man7_5.png",
+			"type": "image",
+			"name": "man7_5_png"
+		},
+		{
+			"url": "assets/game/skin/manSkin/man8/man8_0.png",
+			"type": "image",
+			"name": "man8_0_png"
+		},
+		{
+			"url": "assets/game/skin/manSkin/man8/man8_1.png",
+			"type": "image",
+			"name": "man8_1_png"
+		},
+		{
+			"url": "assets/game/skin/manSkin/man8/man8_2.png",
+			"type": "image",
+			"name": "man8_2_png"
+		},
+		{
+			"url": "assets/game/skin/manSkin/man8/man8_3.png",
+			"type": "image",
+			"name": "man8_3_png"
+		},
+		{
+			"url": "assets/game/skin/manSkin/man8/man8_4.png",
+			"type": "image",
+			"name": "man8_4_png"
+		},
+		{
+			"url": "assets/game/skin/manSkin/man8/man8_5.png",
+			"type": "image",
+			"name": "man8_5_png"
+		},
+		{
+			"url": "assets/game/skin/productSkin/S01P01.png",
+			"type": "image",
+			"name": "S01P01_png"
+		},
+		{
+			"url": "assets/game/skin/productSkin/S01P01_0.png",
+			"type": "image",
+			"name": "S01P01_0_png"
+		},
+		{
+			"url": "assets/game/skin/productSkin/S01P02.png",
+			"type": "image",
+			"name": "S01P02_png"
+		},
+		{
+			"url": "assets/game/skin/productSkin/S01P02_0.png",
+			"type": "image",
+			"name": "S01P02_0_png"
+		},
+		{
+			"url": "assets/game/skin/productSkin/S01P03.png",
+			"type": "image",
+			"name": "S01P03_png"
+		},
+		{
+			"url": "assets/game/skin/productSkin/S01P03_0.png",
+			"type": "image",
+			"name": "S01P03_0_png"
+		},
+		{
+			"url": "assets/game/skin/productSkin/S01P04.png",
+			"type": "image",
+			"name": "S01P04_png"
+		},
+		{
+			"url": "assets/game/skin/productSkin/S01P04_0.png",
+			"type": "image",
+			"name": "S01P04_0_png"
+		},
+		{
+			"url": "assets/game/skin/productSkin/S01P05.png",
+			"type": "image",
+			"name": "S01P05_png"
+		},
+		{
+			"url": "assets/game/skin/productSkin/S01P05_0.png",
+			"type": "image",
+			"name": "S01P05_0_png"
+		},
+		{
+			"url": "assets/game/skin/productSkin/S01P06.png",
+			"type": "image",
+			"name": "S01P06_png"
+		},
+		{
+			"url": "assets/game/skin/productSkin/S01P06_0.png",
+			"type": "image",
+			"name": "S01P06_0_png"
+		},
+		{
+			"url": "assets/game/topmenu_.png",
+			"type": "image",
+			"name": "topmenu__png"
+		},
+		{
+			"url": "assets/game/topmenu_bar.png",
+			"type": "image",
+			"name": "topmenu_bar_png"
+		},
+		{
+			"url": "assets/game/topmenu_barbg.png",
+			"type": "image",
+			"name": "topmenu_barbg_png"
+		},
+		{
+			"url": "assets/game/topmenu_bg.png",
+			"type": "image",
+			"name": "topmenu_bg_png"
+		},
+		{
+			"url": "assets/game/topmenu_head.png",
+			"type": "image",
+			"name": "topmenu_head_png"
+		},
+		{
+			"url": "assets/game/topmenu_house.png",
+			"type": "image",
+			"name": "topmenu_house_png"
+		},
+		{
+			"url": "assets/game/topmenu_name1.png",
+			"type": "image",
+			"name": "topmenu_name1_png"
+		},
+		{
+			"url": "assets/game/topmenu_name2.png",
+			"type": "image",
+			"name": "topmenu_name2_png"
+		},
+		{
+			"url": "assets/game/topmenu_name3.png",
+			"type": "image",
+			"name": "topmenu_name3_png"
+		},
+		{
+			"url": "assets/game/topmenu_name4.png",
+			"type": "image",
+			"name": "topmenu_name4_png"
+		},
+		{
+			"url": "assets/game/topmenu_name5.png",
+			"type": "image",
+			"name": "topmenu_name5_png"
+		},
+		{
+			"url": "assets/game/topmenu_productbg.png",
+			"type": "image",
+			"name": "topmenu_productbg_png"
+		},
+		{
+			"url": "assets/game/topmenu_pt_cur.png",
+			"type": "image",
+			"name": "topmenu_pt_cur_png"
+		},
+		{
+			"url": "assets/game/topmenu_pt_last.png",
+			"type": "image",
+			"name": "topmenu_pt_last_png"
+		},
+		{
+			"url": "assets/game/topmenu_pt_next.png",
+			"type": "image",
+			"name": "topmenu_pt_next_png"
+		}
+	]
+}

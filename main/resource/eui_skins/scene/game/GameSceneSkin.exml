@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="GameSceneSkin" width="720" height="1280" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+	<e:Image id="bg" x="0" source="S0001_jpg" y="-36"/>
+	<e:Group id="topGroup" width="720" x="0" height="1280" y="0" touchEnabled="false">
+		<e:Group id="factoryBoneGroup" width="720" height="1280" touchEnabled="false" touchChildren="false" y="0" x="0" scaleX="1" scaleY="1">
+		</e:Group>
+		<ns1:TopMenuUI id="topMenuUI" skinName="TopMenuUISkin" x="0" y="0" scaleX="1" scaleY="1"/>
+		<ns1:EffectMeterUI id="meterUI" x="-3" skinName="EffectMeterUISkin" y="149" scaleX="1" scaleY="1"/>
+		<ns1:WorkAreaUI id="workAreaUI" skinName="WorkAreaUISkin" x="0" scaleX="1" scaleY="1" y="438"/>
+	</e:Group>
+	<ns1:FootMenuUI id="footMenuUI" skinName="FootMenuUISkin" x="0" bottom="0"/>
+</e:Skin>

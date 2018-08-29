@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="FriendRankPanelSkin" width="720" height="1280" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Scroller id="rankScroller" width="570" height="578" verticalCenter="-127" horizontalCenter="0" anchorOffsetY="0">
+		<e:Group>
+			<e:List id="rankList" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1" width="570" x="0" y="0">
+				<e:layout>
+					<e:VerticalLayout horizontalAlign="center" verticalAlign="middle"/>
+				</e:layout>
+			</e:List>
+		</e:Group>
+	</e:Scroller>
+	<e:Group width="560" height="110" anchorOffsetX="0" horizontalCenter="0" verticalCenter="305" touchEnabled="false">
+		<e:List id="myRankList" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1" width="570" x="0" y="0">
+			<e:layout>
+			<e:VerticalLayout horizontalAlign="center" verticalAlign="middle"/>
+			</e:layout>
+		</e:List>
+	</e:Group>
+</e:Skin>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="TopMenuUISkin" width="720" height="200" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image scale9Grid="100,16,30,63" anchorOffsetX="0" x="0" y="0" source="topmenu_bg_png"/>
+	<e:Image id="headBg" x="9" y="9" scaleX="1" scaleY="1" width="63" height="63" source="topmenu_head_png"/>
+	<e:Image id="headImg" x="9" y="9" scaleX="1" scaleY="1" width="63" height="63" source="topmenu_head_png"/>
+	<e:Image id="headMask" x="10" y="10" scaleX="1" scaleY="1" width="61" height="61" source="topmenu_head_png"/>
+	<e:Image id="goldImg" x="91" y="40" anchorOffsetX="17" anchorOffsetY="17" source="com_gold_light_png"/>
+	<e:BitmapLabel id="goldLab" x="110" y="24" text="99.99K" anchorOffsetX="0" anchorOffsetY="0" scaleX="0.9" scaleY="0.9" font="topmenu_gold_font_fnt"/>
+	<e:Image id="factoryNameImg" y="7.69" horizontalCenter="0" source="topmenu_name1_png"/>
+	<e:Image x="541" y="20" source="topmenu_house_png"/>
+	<e:Image x="595" y="24" source="topmenu_barbg_png"/>
+	<e:Image id="factoryBar" x="595" y="24" source="topmenu_bar_png"/>
+	<e:Rect id="factoryBarMask" width="98" height="39" x="595" y="24"/>
+	<e:Group width="98" height="39" x="595" y="24">
+		<e:BitmapLabel id="factoryLevelLab" font="topmenu_level_font_fnt" text="99" scaleX="1" scaleY="1" horizontalCenter="0" verticalCenter="0"/>
+	</e:Group>
+	<e:Image y="81" x="257" source="topmenu_productbg_png"/>
+	<e:Image id="curPt" source="topmenu_pt_cur_png" horizontalCenter="0" verticalCenter="14"/>
+	<e:Image id="lastPt" source="topmenu_pt_last_png" verticalCenter="14.5" horizontalCenter="-67"/>
+	<e:Image id="nextPt" source="topmenu_pt_next_png" verticalCenter="12" horizontalCenter="58.5"/>
+</e:Skin>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="EffectMeterUISkin" width="100" height="150" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image id="maxIcon" x="1.5" y="0" source="meter_4_png"/>
+	<e:Image x="18.5" y="21" source="meter_1_png"/>
+	<e:Image id="proBar" x="18.5" y="21" source="meter_3_png"/>
+	<e:Image x="18.5" y="21" source="meter_0_png"/>
+	<e:Image x="18.5" y="21" source="meter_2_png"/>
+	<e:Rect id="proMask" width="50" height="122" x="16" y="147" anchorOffsetY="122" anchorOffsetX="0"/>
+</e:Skin>

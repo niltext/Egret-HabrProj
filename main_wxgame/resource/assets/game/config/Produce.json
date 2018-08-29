@@ -1,0 +1,148 @@
+{
+   "1" : {
+      "scale" : 1,
+      "skin_produce" : [
+         {
+            "lv_range" : [1,10],
+            "skin_produce" : "S01P01"
+         },
+         {
+            "lv_range" : [11,20],
+            "skin_produce" : "S01P02"
+         },
+         {
+            "lv_range" : [21,30],
+            "skin_produce" : "S01P03"
+         },
+         {
+            "lv_range" : [31,40],
+            "skin_produce" : "S01P04"
+         },
+         {
+            "lv_range" : [41,50],
+            "skin_produce" : "S01P05"
+         },
+         {
+            "lv_range" : [51,999],
+            "skin_produce" : "S01P06"
+         }
+      ]
+   },
+   "2" : {
+      "scale" : 2,
+      "skin_produce" : [
+         {
+            "lv_range" : [1,10],
+            "skin_produce" : "S02P01"
+         },
+         {
+            "lv_range" : [11,20],
+            "skin_produce" : "S02P02"
+         },
+         {
+            "lv_range" : [21,30],
+            "skin_produce" : "S02P03"
+         },
+         {
+            "lv_range" : [31,40],
+            "skin_produce" : "S02P04"
+         },
+         {
+            "lv_range" : [41,50],
+            "skin_produce" : "S02P05"
+         },
+         {
+            "lv_range" : [51,999],
+            "skin_produce" : "S02P06"
+         }
+      ]
+   },
+   "3" : {
+      "scale" : 3,
+      "skin_produce" : [
+         {
+            "lv_range" : [1,10],
+            "skin_produce" : "S03P01"
+         },
+         {
+            "lv_range" : [11,20],
+            "skin_produce" : "S03P02"
+         },
+         {
+            "lv_range" : [21,30],
+            "skin_produce" : "S03P03"
+         },
+         {
+            "lv_range" : [31,40],
+            "skin_produce" : "S03P04"
+         },
+         {
+            "lv_range" : [41,50],
+            "skin_produce" : "S03P05"
+         },
+         {
+            "lv_range" : [51,999],
+            "skin_produce" : "S03P06"
+         }
+      ]
+   },
+   "4" : {
+      "scale" : 4,
+      "skin_produce" : [
+         {
+            "lv_range" : [1,10],
+            "skin_produce" : "S04P01"
+         },
+         {
+            "lv_range" : [11,20],
+            "skin_produce" : "S04P02"
+         },
+         {
+            "lv_range" : [21,30],
+            "skin_produce" : "S04P03"
+         },
+         {
+            "lv_range" : [31,40],
+            "skin_produce" : "S04P04"
+         },
+         {
+            "lv_range" : [41,50],
+            "skin_produce" : "S04P05"
+         },
+         {
+            "lv_range" : [51,999],
+            "skin_produce" : "S04P06"
+         }
+      ]
+   },
+   "5" : {
+      "scale" : 5,
+      "skin_produce" : [
+         {
+            "lv_range" : [1,10],
+            "skin_produce" : "S05P01"
+         },
+         {
+            "lv_range" : [11,20],
+            "skin_produce" : "S05P02"
+         },
+         {
+            "lv_range" : [21,30],
+            "skin_produce" : "S05P03"
+         },
+         {
+            "lv_range" : [31,40],
+            "skin_produce" : "S05P04"
+         },
+         {
+            "lv_range" : [41,50],
+            "skin_produce" : "S05P05"
+         },
+         {
+            "lv_range" : [51,999],
+            "skin_produce" : "S05P06"
+         }
+      ]
+   }
+}
+
